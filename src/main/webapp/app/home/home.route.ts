@@ -13,6 +13,10 @@ export const HOME_ROUTE: Routes = [
         }
     },
     {
+        path: 'helloWorld/:from',
+        component: HelloWorldComponent
+    },
+    {
         path: 'helloWorld',
         component: HelloWorldComponent
     }

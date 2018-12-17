@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(thientoan.learning.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(thientoan.learning.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(thientoan.learning.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(thientoan.learning.domain.Player.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

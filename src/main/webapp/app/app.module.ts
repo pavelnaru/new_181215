@@ -17,6 +17,8 @@ import { New181215AppRoutingModule } from './app-routing.module';
 import { New181215HomeModule } from './home/home.module';
 import { New181215AccountModule } from './account/account.module';
 import { New181215EntityModule } from './entities/entity.module';
+import { New181215HelloWorld2Module } from './helloworld/helloworld.module';
+
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
@@ -36,7 +38,8 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         New181215HomeModule,
         New181215AccountModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
-        New181215EntityModule
+        New181215EntityModule,
+        New181215HelloWorld2Module
     ],
     declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
     providers: [
